@@ -1,0 +1,67 @@
+Dataset link: https://www.kaggle.com/datasets/sweety18/cicids2017-full-dataset/data
+
+Notebook:
+========
+1. Importing the packages
+2. Exploring the dataset
+	- cicids2017-dataset
+3. Data Preprocessing	
+	- Remove the Null values
+	- Remove the Duplicates
+	- Label Encoding
+4. Data Visualization
+	- Distribution of Classification outcome
+	- Correlation Matrix
+5. Feature selection 
+	- PCA 
+6. Split dataset
+	- 80/20
+7. Normalize the data
+	- Standard Scaler
+8. Build the Classification models
+	- ML Models
+		- DT
+		- RF
+		- ExtraTree
+		- LR
+		- Naive Bayes	
+		- Voting classifier(RF+LGBM+XGB)
+	- DL Models
+		- DNN
+		- CNN
+		- LSTM
+		- CNN + LSTM
+		- CNN + LSTM + GRU
+	- Gen AI NLP Models 
+		- VAE
+		- GAN
+		- Distgpt2 
+9. Evaluate the model Classification Report, Confusion matrix, ROC graphs
+10. Comparing the models with Accuracy, precision, recall, f1 score
+9. Comparison Graphs are generated with scores of all models.
+10. Save the best trained model
+11. Explainable AI (XAI) Visualizations
+	- Using LIME and SHAP
+
+Front-end:
+==========
+1. Frontend is developed with help of Flask Framework, along with Registration and Login setup with support of SQLite DB 
+2. For the frontend we used the data for prediction 
+3. User gives input as Feature Values 
+4. The given input is preprocessed for prediction 
+5. Trained model is used for prediction 
+6. Final outcome is displayed through frontend
+
+
+
+
+
+Proposed:
+=========
+The base paper provides a comprehensive analysis of how Artificial Intelligence (AI) techniques—spanning Machine Learning (ML), Deep Learning (DL), Natural Language Processing (NLP), Explainable AI (XAI), and Generative AI (GenAI)—can be applied to enhance cybersecurity. It primarily focuses on a conceptual and comparative study of these AI methods, evaluating their potential to address various cybersecurity challenges such as anomaly detection, threat prediction, and intelligence generation. The paper emphasizes improving transparency through XAI and exploring emerging trends in Generative AI for simulating and mitigating cyber threats. Overall, the base paper serves as a theoretical framework, offering valuable insights into the future direction of AI-driven cybersecurity research and applications.
+
+
+Our Extension:
+==============
+Building upon the foundation established by the base paper, our project transforms these conceptual ideas into a fully functional, implementation-based study using the CICIDS2017 dataset. We developed and evaluated multiple AI models, including Machine Learning (DT, RF, LR, Naive Bayes, Voting Classifier), Deep Learning (DNN, CNN, LSTM, CNN+LSTM, CNN+LSTM+GRU), and Generative AI (VAE, GAN, DistilGPT2) for cyber threat detection. To enhance interpretability, XAI techniques (LIME and SHAP) were applied to visualize feature importance and model reasoning. Furthermore, we integrated the trained models into a Flask-based web application that allows real-time user interaction and prediction. This extension advances the base paper by demonstrating a complete end-to-end AI-driven cybersecurity system—covering data preprocessing, model building, explainability, and deployment—bridging the gap between theoretical research and practical implementation.
+
